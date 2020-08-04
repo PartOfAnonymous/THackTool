@@ -1,8 +1,8 @@
 # Termux Hacking Tool
 #
-#Created by PartOfAnonymous
+Created by PartOfAnonymous
 #
-#https://github.com/PartOfAnonymous
+https://github.com/PartOfAnonymous
 #
 # Installation
 #
@@ -14,6 +14,6 @@ chmod +x *
 #
 ./install.sh
 #
-#Usage
+# Usage
 #
 ./start.sh
