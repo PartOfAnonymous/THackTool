@@ -1,7 +1,10 @@
 clear
 read -p "Install essential tools? [Y/n] " install
 if [[ $install == "Y" ]]; then
-apt install nmap hydra wget python openssh perl ruby clang curl python2
+apt install nmap hydra wget figlet openssh perl ruby clang curl
+apt install python
+apt install python2
+apt install python3
 python -m pip install slowloris hashid
 git clone https://github.com/CiKu370/hasher modules/hasher
 git clone https://github.com/sullo/nikto modules/nikto
@@ -14,7 +17,10 @@ echo "Now run ./start.sh to start the tool"
 echo
 fi
 if [[ $install == "y" ]]; then
-apt install nmap hydra wget curl clang ruby perl openssh python python2
+apt install nmap hydra wget curl clang figlet ruby perl openssh
+apt install python
+apt install python2
+apt install python3
 python -m pip install slowloris hashid
 git clone https://github.com/CiKu370/hasher modules/hasher
 git clone https://github.com/sullo/nikto modules/nikto
@@ -38,7 +44,10 @@ echo
 fi
 if [[ $install == "" ]]; then
 clear
-apt install nmap hydra wget python openssh perl ruby clang python2 curl
+apt install nmap hydra wget openssh figlet perl ruby clang curl
+apt install python
+apt install python2
+apt install python3
 python -m pip install slowloris hashid
 git clone https://github.com/CiKu370/hasher modules/hasher
 git clone https://github.com/sullo/nikto modules/nikto
