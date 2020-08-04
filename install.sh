@@ -4,7 +4,6 @@ if [[ $install == "Y" ]]; then
 apt install nmap hydra wget figlet openssh perl ruby clang curl
 apt install python
 apt install python2
-apt install python3
 python -m pip install slowloris hashid
 git clone https://github.com/CiKu370/hasher modules/hasher
 git clone https://github.com/sullo/nikto modules/nikto
@@ -20,7 +19,6 @@ if [[ $install == "y" ]]; then
 apt install nmap hydra wget curl clang figlet ruby perl openssh
 apt install python
 apt install python2
-apt install python3
 python -m pip install slowloris hashid
 git clone https://github.com/CiKu370/hasher modules/hasher
 git clone https://github.com/sullo/nikto modules/nikto
@@ -47,7 +45,6 @@ clear
 apt install nmap hydra wget openssh figlet perl ruby clang curl
 apt install python
 apt install python2
-apt install python3
 python -m pip install slowloris hashid
 git clone https://github.com/CiKu370/hasher modules/hasher
 git clone https://github.com/sullo/nikto modules/nikto
