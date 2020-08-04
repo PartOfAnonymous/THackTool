@@ -1,5 +1,4 @@
 # Termux Hacking Tool
-#
 Created by PartOfAnonymous
 #
 https://github.com/PartOfAnonymous
