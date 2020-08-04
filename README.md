@@ -1,7 +1,10 @@
 # Termux Hacking Tool
+#
 #Created by PartOfAnonymous
+#
 #https://github.com/PartOfAnonymous
-#Installation
+#
+# Installation
 #
 git clone https://github.com/PartOfAnonymous/THackTool.git
 #
