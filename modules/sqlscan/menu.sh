@@ -4,7 +4,7 @@ figlet SCAN
 echo
 read -p "Target URL: " target
 echo
-read -p "Select Y when you see the URL you're wanting to test"
+read -p "Select Y when you see the URL you're wanting to test [Press Enter]"
 python3 ~/THackTool/modules/sqlmap/sqlmap.py -g $target
 echo
 read -p "Press Enter to return to main menu"
