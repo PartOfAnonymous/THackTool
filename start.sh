@@ -1,4 +1,4 @@
-python3 ~/THackTool/modules/enable_tools.py
+python ~/THackTool/modules/config.py
 clear
 figlet THACKTOOL
 echo
