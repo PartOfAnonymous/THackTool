@@ -32,6 +32,7 @@ bash ~/THackTool/modules/vulnscan/menu.sh
 exit
 fi
 if [[ $select = 4 ]]; then
+chmod +x ~/THackTool/modules/phish/phish.sh
 clear
 bash ~/THackTool/modules/phish/phish.sh
 exit
