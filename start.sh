@@ -7,7 +7,7 @@ echo
 echo "#~scan ports [1]"
 echo "#~brute force [2]"
 echo "#~scan website vulnerabilities [3]"
-echo "#~scan SQL vulnerabilities [4]"
+echo "#~phishing attack [4]"
 echo "#~identify hash [5]"
 echo "#~crack hash [6]"
 echo "#~ping host [7]"
@@ -33,7 +33,7 @@ exit
 fi
 if [[ $select = 4 ]]; then
 clear
-bash ~/THackTool/modules/sqlscan/menu.sh
+bash ~/THackTool/modules/phish/phish.sh
 exit
 fi
 if [[ $select = 5 ]]; then
